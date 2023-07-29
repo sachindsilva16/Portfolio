@@ -64,6 +64,12 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+/* LOGO NAME */
+
+.logo-name{
+    font-weight: 600;
+}
+
 /* NAVBAR */
 
 .navbar a {
@@ -106,7 +112,7 @@ section {
 }
 
 .home-content h1 {
-    font-size: 5.6rem;
+    font-size: 4.6rem;
     font-weight: 700;
     line-height: 1.3;
     color: var(--main-color);
@@ -126,9 +132,16 @@ section {
 /* DEVELOPER IMAGE */
 
 .home-image img {
-    width: 77vw;
+    /* width: 77vw; */
+    width: 81vw;
+
     /* box-shadow: 0 0 2px var(--text-color); */
     margin-right: -32rem;
+    transition: all 0.5s;
+}
+
+.home-image img:hover{
+    transform: scale(1.1);
 }
 
 
@@ -171,13 +184,14 @@ span {
     border-radius: 50%;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
-    transition: all .5s;
+    transition: all .4s;
 }
 
 .social-media a:hover {
     background: var(--main-color);
     color: var(--secondary-bg-color);
     box-shadow: 0 0 1.5 rem var(--main-color);
+    transform: scale(1.1);
 }
 
 
@@ -198,7 +212,7 @@ a.btn {
     transition: all 0.25s;
 }
 
-.btn:hover{
+.btn:hover {
     box-shadow: none;
 
 }
@@ -206,7 +220,7 @@ a.btn {
 
 /* ABOUT SECTION */
 
-.about{
+.about {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -214,10 +228,105 @@ a.btn {
     gap: 2rem;
 }
 
+/* ABOUT id  */
+
+#about{
+    background: var(--secondary-bg-color);
+}
+
 .about-image img {
-    width: 69vw;
+    width: 56vw;
     margin-left: -26rem;
+    transition:all 0.4s
+
+}
+.about-image img:hover {
+    
+    transform: scale(1.02);
+}
+
+/* ABOUT ----> HEADING  */
+
+.heading {
+
+    text-align: center;
+    font-size: 4.5rem;
 
 }
 
+.about-content {
+    padding: 2rem 1.5rem 4rem 4rem;
+    background:var(--bg-color);
+    border-radius: 2rem;
+    border: .1rem solid var(--main-color);
+    transition: all .5s;
+}
 
+.about-content:hover{
+    box-shadow: 0 0 1rem var(--main-color);
+    transform: scale(1.05);
+}
+
+/* ABOUT : ABOUT-CONTENT h2 */
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* ABOUT CONTENT : h3 */
+
+.about-content h3{
+    font-size: 2.8rem;
+}
+
+/* ABOUT-CONTENT : p */
+
+.about-content p {
+    font-size: 1.7rem;
+    margin: 2rem 0;
+}
+
+
+
+/* PROJECT SECTION  */
+
+
+/* .projects {
+
+} */
+
+
+/* PROJECT SECTION HEADING */
+
+.projects h2{
+    margin-bottom: 7rem;
+}
+
+/* PROJECT CONTAINER  */
+
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap:7rem;
+}
+
+
+/* PROJECT BOX */
+
+.project-container .project-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    overflow: hidden;
+    display: flex;
+
+}
+
+/* PROJECT-IMAGES */
+
+.project-box img {
+    width: 100%;
+}

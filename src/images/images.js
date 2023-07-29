@@ -1,4 +1,11 @@
-const homeImage = require("./home-image.png");
+const profileImage = require("./home-image.png");
 
 
-export default homeImage;
+
+const projectImage1 = require("./portfolio1.jpg");
+const projectImage2 = require("./portfolio2.jpg");
+const projectImage3 = require("./portfolio3.jpg");
+const projectImage4 = require("./portfolio4.jpg");
+
+export default profileImage;
+export {projectImage1,projectImage2,projectImage3,projectImage4};
