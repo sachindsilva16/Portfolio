@@ -15,22 +15,22 @@
 
 
 /* -----------CSS VARIABLES------------ */
-:root{
-    --bg-color:#1f242d;
-    --secondary-bg-color:#323946;
-    --text-color:#fff;
-    --main-color:#B581E6;
+:root {
+    --bg-color: #1f242d;
+    --secondary-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #B581E6;
 
 }
 
-html{
+html {
     font-size: 62.5%;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 
-body{
-    background:var(--bg-color);
+body {
+    background: var(--bg-color);
     color: var(--text-color);
 
 }
@@ -44,7 +44,7 @@ body{
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background:var(--bg-color);
+    background: var(--bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,10 +58,10 @@ body{
 .logo {
 
     font-size: 2.5rem;
-    color:var(--text-color);
+    color: var(--text-color);
     font-weight: 800;
     cursor: default;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 /* NAVBAR */
@@ -74,8 +74,13 @@ body{
 }
 
 .navbar a:hover,
-.navbar a.active{
+.navbar a.active {
     color: var(--main-color);
 }
 
 
+#menu-icon {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+}
