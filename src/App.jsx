@@ -146,6 +146,12 @@ const App = () => {
 
 
 
+            {/* CONTACT SECTION */}
+
+           
+
+
+
 
 
 

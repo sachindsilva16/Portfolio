@@ -339,6 +339,9 @@ a.btn {
     transform: scale(1.2);
 }
 
+.project-box:hover{
+    box-shadow: none;
+}
 
 .project-box .project-layer {
     position: absolute;
@@ -354,9 +357,9 @@ a.btn {
     text-align: center;
     padding: 0 4rem;
 
-    /* TO HIDE FOR IMAGE SCALING */
-    transform: translateY(100%);
+    /* TO HIDE FOR IMAGE SCALING AND UPON BOX:HOVER translateY(100%) --> translateY(0) */
     transition:.5s ease;
+    transform: translateY(100%);
 }
 
 /* PROJECT-LAYER HEADING */
