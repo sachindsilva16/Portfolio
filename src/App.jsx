@@ -33,7 +33,7 @@ const App = () => {
                 <div className="home-content">
                     <h3>Hi, My Name is</h3>
                     <h1>Sachin Dsilva</h1>
-                    <h3>And I'm a <span>Web Developer</span></h3>
+                    <h3>And I'm a <span id="element">Web Developer</span></h3>
                     <p>Do connect to my networks..</p>
 
 
@@ -43,6 +43,7 @@ const App = () => {
                         <a href='#'><i className="bx bxl-github"></i></a>
                         <a href='#'><i className='bx bxl-discord-alt' ></i></a>
                         <a href='#'><i className="bx bxl-linkedin-square"></i> </a>
+                        <a href='#'><i className="bx bxl-twitter"></i> </a>
                     </div>
                 </div>
             </section>
