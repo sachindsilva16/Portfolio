@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+/* OVERRIDING DEFAULT SETTING */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+/* -----------CSS VARIABLES------------ */
 :root{
     --bg-color:#1f242d;
     --secondary-bg-color:#323946;
@@ -18,3 +22,60 @@
     --main-color:#B581E6;
 
 }
+
+html{
+    font-size: 62.5%;
+    overflow-x:hidden;
+}
+
+
+body{
+    background:var(--bg-color);
+    color: var(--text-color);
+
+}
+
+
+/* HEADER SECTION */
+.header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background:var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+/*HEADER-SECTION :: LOGO  */
+
+
+.logo {
+
+    font-size: 2.5rem;
+    color:var(--text-color);
+    font-weight: 800;
+    cursor: default;
+    font-family: 'Inter',sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar a {
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: all .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: var(--main-color);
+}
+
+
