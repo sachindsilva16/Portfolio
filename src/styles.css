@@ -126,10 +126,9 @@ section {
 /* DEVELOPER IMAGE */
 
 .home-image img {
-    width: 50vw;
+    width: 77vw;
     /* box-shadow: 0 0 2px var(--text-color); */
-    margin-left: 20%;
-
+    margin-right: -32rem;
 }
 
 
@@ -201,6 +200,23 @@ a.btn {
 
 .btn:hover{
     box-shadow: none;
+
+}
+
+
+/* ABOUT SECTION */
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-image img {
+    width: 69vw;
+    margin-left: -26rem;
 
 }
 

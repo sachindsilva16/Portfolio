@@ -65,7 +65,7 @@ const App = () => {
             {/* ABOUT SECTION */}
 
             <section className="about" id="about">
-                <div className="about-img">
+                <div className="about-image">
                     <img src={homeImage} alt=''/>
                 </div>
 
