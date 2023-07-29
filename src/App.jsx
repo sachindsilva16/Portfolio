@@ -17,7 +17,7 @@ const App = () => {
                 {/* Navigation bar */}
                 <nav className="navbar">
                     <a href='#home' className="active">Home</a>
-                    <a href='#home'>Home</a>
+                    {/* <a href='#home'>Home</a> */}
                     <a href='#experience'>Experience</a>
                     <a href='#about'>About</a>
                     <a href='#projects'>Projects</a>
@@ -57,6 +57,23 @@ const App = () => {
                 {/* SACHIN DSILVA's IMAGE */}
                 <div className="home-image">
                     <img src={homeImage}/>
+                </div>
+            </section>
+
+
+
+            {/* ABOUT SECTION */}
+
+            <section className="about" id="about">
+                <div className="about-img">
+                    <img src={homeImage} alt=''/>
+                </div>
+
+                <div className="about-content">
+                    <h2 className="heading">About <span>Me</span></h2>
+                    <h3>Web Developer</h3>
+                    <p>This line will be edited with a content on about me my experience and my future goals... </p>
+                    <a href='#' className="btn">Read More</a>
                 </div>
             </section>
         </div>

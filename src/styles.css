@@ -100,25 +100,108 @@ section {
     align-items: center;
 }
 
-.home-content{
+.home-content {
     font-size: 3.2rem;
     font-weight: 700;
 }
 
-.home-content h1{
+.home-content h1 {
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
     color: var(--main-color);
+    user-select: none;
 }
 
-.home-content h3{
+.home-content h3 {
     font-size: 2.5rem;
+    user-select: none;
 }
-.home-content p{
+
+.home-content p {
     font-size: 1.8rem;
     line-height: 4;
 }
 
+/* DEVELOPER IMAGE */
+
+.home-image img {
+    width: 50vw;
+    /* box-shadow: 0 0 2px var(--text-color); */
+    margin-left: 20%;
+
+}
+
+
+/* HOME-SECTION PARAGRAPH */
+
+.home-content p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    user-select: none;
+
+}
+
+/* HOME : h3 2nd CHILD */
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+    user-select: none;
+}
+
+/* TYPEWRITER */
+
+span {
+    color: var(--main-color);
+    /* text-shadow: 0 0 0.5em var(--main-color); */
+}
+
+
+
+/* SOCIAL MEDIA  :: ICONS*/
+
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    font-size: 3rem;
+    border-radius: 50%;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: all .5s;
+}
+
+.social-media a:hover {
+    background: var(--main-color);
+    color: var(--secondary-bg-color);
+    box-shadow: 0 0 1.5 rem var(--main-color);
+}
+
+
+/* RESUME DOWNLOAD BUTTON */
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+a.btn {
+    font-size: 1.6rem;
+    color: var(--secondary-bg-color);
+    font-weight: 600;
+    transition: all 0.25s;
+}
+
+.btn:hover{
+    box-shadow: none;
+
+}
 
 
