@@ -148,8 +148,10 @@ const App = () => {
 
             {/* CONTACT SECTION */}
 
-           
 
+            <section className="contact" id="contact">
+
+            </section>
 
 
 
