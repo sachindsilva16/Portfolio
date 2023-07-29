@@ -99,7 +99,7 @@ const App = () => {
 
                         <div className="project-layer">
                             <h4>Chat Bot</h4>
-                            <p>hsdhasdjashjdkhajskd ahdhashdkh askjhdk</p>
+                            <p>hsdhasdjashjdkhasdsdsdsdsdsdsdsd jskd ahdhashdkh askjhdk</p>
                             <a href='#'><i class='bx bx-link-external' ></i></a>
                         </div>
 
@@ -122,7 +122,7 @@ const App = () => {
                         <img src={projectImage3} alt='project1.jpg' />
 
                         <div className="project-layer">
-                            <h4>Chat Bot</h4>
+                            <h4>Curra Nova</h4>
                             <p>hsdhasdjashjdkhajskd ahdhashdkh askjhdk</p>
                             <a href='#'><i class='bx bx-link-external' ></i></a>
                         </div>
@@ -134,7 +134,7 @@ const App = () => {
                         <img src={projectImage4} alt='project1.jpg' />
 
                         <div className="project-layer">
-                            <h4>Chat Bot</h4>
+                            <h4>My Loop Studios</h4>
                             <p>hsdhasdjashjdkhajskd ahdhashdkh askjhdk</p>
                             <a href='#'><i class='bx bx-link-external' ></i></a>
                         </div>

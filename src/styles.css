@@ -322,6 +322,9 @@ a.btn {
     box-shadow: 0 0 1rem var(--main-color);
     overflow: hidden;
     display: flex;
+    transition: all 0.5s;
+    cursor: pointer;
+
 
 }
 
@@ -329,4 +332,73 @@ a.btn {
 
 .project-box img {
     width: 100%;
+    transition: .5s ease;
 }
+
+.project-box:hover img {
+    transform: scale(1.2);
+}
+
+
+.project-box .project-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(1,0,0,.1),var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+
+    /* TO HIDE FOR IMAGE SCALING */
+    transform: translateY(100%);
+    transition:.5s ease;
+}
+
+/* PROJECT-LAYER HEADING */
+.project-layer h4{
+    font-size: 3.2rem;
+}
+
+/* PROJECT-LAYER : CONTENT */
+
+.project-layer p {
+    font-size: 1.7rem;
+    margin: 1rem 2.8rem 0 2.8rem;
+}
+
+/* PROJECT-LAYER : LINKS */
+
+.project-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height:5rem;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    margin: 1.5rem 0;
+    transition: .2s ease-in-out;
+}
+
+.project-layer a:hover{
+    transform: scale(1.1);
+}
+
+.project-layer a i {
+    font-size: 3.5rem;
+
+}
+
+
+
+/* WHEN I HOVER OVER THE PROJECT-BOX THE PROJECT-LAYER WILL TRANSFORM FROM translateY(100%) to translate(0) */
+
+.project-box:hover .project-layer{
+    transform: translateY(0);
+}
+
