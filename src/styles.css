@@ -517,3 +517,102 @@ a.btn:hover{
     box-shadow: none;
 
 }
+
+
+
+
+/*--------- BREAKPOINTS----------- */
+
+@media (max-width:1200px){
+
+    html {
+        font-size: 55%;
+    }
+}
+
+
+@media (max-width:991px){
+
+    .header {
+        padding: 2rem 3%;
+    }
+
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+
+}
+
+
+@media (max-width:768px){
+    #menu-icon{
+        display: block;
+    }
+
+   .header{
+    padding: 3rem 6rem;
+   }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left:0;
+        width: 100%;
+        padding: 1rem 3%;
+        background:var(--bg-color);
+        border-top: .1rem solid var(--secondary-bg-color);
+        box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+        display: none;
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem;
+        text-align:center;
+    }
+
+    #menu-icon {
+        transition:all 0.25s;
+
+        
+    }
+
+    .navbar.active{
+        animation-name:rotate;
+        animation-duration: 1s;
+    }
+     .navbar.active a:hover{
+       transform: scale(1.1);
+    }
+
+    #menu-icon:hover{
+        transform: scale(1.1);
+        color: var(--main-color);
+    }
+
+    @keyframes rotate {
+        0%{
+            transform: translateY(1rem);
+        }
+
+        25%{
+            transform: translateY(2rem);
+        }
+        
+       
+      
+    }
+}
+
+
+/* HAMBURGER MENU STYLINGS*/
+
+/* HAMBURGER MENU  */
+

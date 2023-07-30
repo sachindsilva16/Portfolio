@@ -1,11 +1,11 @@
-import React from "react";
+import React,{useState} from "react";
 import "./styles.css"
 import profileImage, { projectImage1, projectImage2, projectImage3, projectImage4 } from "./images/images.js";
 import Typed from "typed.js";
 
 const App = () => {
 
-
+    
 
 
 
@@ -37,7 +37,9 @@ const App = () => {
 
     // Sticky Navbar
 
-    
+    const [isNavBarOpen,setNavBarOpen]=useState(false);
+
+
 
 
 
@@ -66,6 +68,15 @@ const App = () => {
     }, []);
 
 
+    // NAVBAR TOGGLE BUTTON
+
+   
+
+
+
+
+
+
 
     return (
         <div>
@@ -74,10 +85,19 @@ const App = () => {
                 {/* Header Logo name */}
                 <a href='#' className="logo">My <span className="logo-name">PortFolio</span></a>
 
-                <i className='bx bx-menu' id="menu-icon"></i>
+                <i className={isNavBarOpen ? ' bx bx-x' : 'bx bx-menu'} id="menu-icon" style={{cursor:"pointer"}} onClick={()=>{
+                    setNavBarOpen((previousState)=>{
+                        return !previousState;
+                    })
+                }}></i>
+                {/* <button id="menu-btn">
+                    <span className="hamburger-top"></span>
+                    <span className="hamburger-middle"></span>
+                    <span className="hamburger-"></span>
+                </button> */}
 
                 {/* Navigation bar */}
-                <nav className="navbar">
+                <nav className={`navbar${isNavBarOpen ? ' active' : ''}`}>
                     <a href='#home' className="active">Home</a>
                     {/* <a href='#home'>Home</a> */}
                     <a href='#about'>About</a>
