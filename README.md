@@ -8,7 +8,7 @@
 
 <div id="header" align="center" style="display:flex;justify-content:center;align-items:center;margin-bottom:50px;margin-top:50px;">
 
-<img src="https://github.com/sachindsilva16/My-Portfolio/assets/110468373/4125a515-ad3c-43a3-a244-4d225fa6edb7"/>
+<img src="https://github.com/sachindsilva16/My-Portfolio/assets/110468373/4125a515-ad3c-43a3-a244-4d225fa6edb7" style="border-radius:2rem;"/>
   
   <!-- <img src="https://media.giphy.com/media/Q8xuJjjxQHHJdHn7gJ/giphy.gif" height="40" width="30" align="right"> -->
 </div>
