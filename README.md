@@ -44,7 +44,7 @@
 
 ### `💻 About Me :`
 
-I am a __21 y/0__ Web Developer  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> based in Karnataka, India.
+I am a __22 y/0__ Web Developer  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> based in Karnataka, India.
 
 - 📗 Currently am pursing 4th year Bachelor of Engineering in Information Science & Engineering at NMAM Institute of Technology, Nitte, Karkala.
 - 🌱 Enthusiastic in exploring new things everyday.
