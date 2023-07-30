@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./styles.css"
 import profileImage, { projectImage1, projectImage2, projectImage3, projectImage4 } from "./images/images.js";
 import Typed from "typed.js";
+import ScrollReveal from "scrollreveal";
 
 const App = () => {
 
@@ -75,6 +76,21 @@ const App = () => {
 
     // Hide navBar widget when link is clicked..
 
+
+    {/* SCROLL REVEAL JS  */ }
+
+
+
+    ScrollReveal({
+        reset: true,
+        distance: '70px',
+        duration: 2000,
+        delay: 200
+    });
+
+    ScrollReveal().reveal('.home-content, .heading', { origin: 'top', duration: 1000 })
+    ScrollReveal().reveal('.home-image, .project-box,.contact form', { origin: 'bottom', duration: 1000 })
+    ScrollReveal().reveal('.home-content h1, .about,.contact form', { origin: 'left', duration: 1000 });
 
 
 
@@ -197,7 +213,7 @@ const App = () => {
                         <div className="project-layer">
                             <h4>Chat Bot</h4>
                             <p>hsdhasdjashjdkhasdsdsdsdsdsdsdsd jskd ahdhashdkh askjhdk</p>
-                            <a href='#'><i class='bx bx-link-external' ></i></a>
+                            <a href='#'><i className='bx bx-link-external' ></i></a>
                         </div>
 
                     </div>
@@ -209,7 +225,7 @@ const App = () => {
                         <div className="project-layer">
                             <h4>Blog Oasis</h4>
                             <p>hsdhasdjashjdkhajskd ahdhashdkh askjhdk</p>
-                            <a href='#'><i class='bx bx-link-external' ></i></a>
+                            <a href='#'><i className='bx bx-link-external' ></i></a>
                         </div>
 
                     </div>
@@ -221,7 +237,7 @@ const App = () => {
                         <div className="project-layer">
                             <h4>Curra Nova</h4>
                             <p>hsdhasdjashjdkhajskd ahdhashdkh askjhdk</p>
-                            <a href='#'><i class='bx bx-link-external' ></i></a>
+                            <a href='#'><i className='bx bx-link-external' ></i></a>
                         </div>
 
                     </div>
@@ -233,7 +249,7 @@ const App = () => {
                         <div className="project-layer">
                             <h4>My Loop Studios</h4>
                             <p>hsdhasdjashjdkhajskd ahdhashdkh askjhdk</p>
-                            <a href='#'><i class='bx bx-link-external' ></i></a>
+                            <a href='#'><i className='bx bx-link-external' ></i></a>
                         </div>
 
                     </div>
@@ -259,8 +275,8 @@ const App = () => {
                         <input type='number' placeholder="Mobile Number" />
                     </div>
 
-                    <textarea cols='30' rows='10' placeholder="Type something.."> </textarea>
-                    <input type='submit' value="Submit" class="btn" />
+                    <textarea cols='30' rows='10' placeholder="Type something.." />
+                    <input type='submit' value="Submit" className="btn" />
                 </form>
             </section>
 
@@ -278,14 +294,14 @@ const App = () => {
                 </div>
 
                 <div className="top-button">
-                    <a href='#home'><i class='bx bx-chevron-up'></i></a>
+                    <a href='#home'><i className='bx bx-chevron-up'></i></a>
                 </div>
             </footer>
 
 
-            {/* SCROLL REAVEAL JS  */}
 
-            
+
+
 
 
 
