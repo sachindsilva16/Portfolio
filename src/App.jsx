@@ -1,8 +1,30 @@
 import React from "react";
 import "./styles.css"
 import profileImage, { projectImage1, projectImage2, projectImage3, projectImage4 } from "./images/images.js";
+import Typed from "typed.js";
 
 const App = () => {
+
+
+    const element = React.useRef(null);
+
+    React.useEffect(() => {
+        const typed = new Typed(element.current, {
+            strings: ['Web Developer.', 'Web Designer.'],
+            typeSpeed: 70,
+            smartBackspace: true,
+            backSpeed: 50,
+            loop: true,
+            loopCount: Infinity,
+            shuffle: false,
+        });
+
+        return () => {
+            // Destroy Typed instance during cleanup to stop animation
+            typed.destroy();
+        };
+    }, []);
+
 
 
     return (
@@ -35,7 +57,7 @@ const App = () => {
                 <div className="home-content">
                     <h3>Hi, My Name is</h3>
                     <h1>Sachin Dsilva</h1>
-                    <h3>And I'm a <span id="element">Web Developer</span></h3>
+                    <h3>And I'm a <span ref={element}></span></h3>
                     <p>Stay connected..</p>
 
 
@@ -150,9 +172,40 @@ const App = () => {
 
 
             <section className="contact" id="contact">
+                <h2 className="heading">Contact <span>Me</span></h2>
 
+                <form>
+                    <div className="input-box">
+                        <input type='text' placeholder="First Name" />
+                        <input type='text' placeholder="Last Name" />
+                    </div>
+                    <div className="input-box">
+                        <input type='email' placeholder="Email Address" />
+                        <input type='number' placeholder="Mobile Number" />
+                    </div>
+
+                    <textarea cols='30' rows='10' placeholder="Type something.."> </textarea>
+                    <input type='submit' value="Submit" class="btn" />
+                </form>
             </section>
 
+
+
+            {/* FOOTER SECTION  */}
+
+            <footer className="footer">
+                <div className="footer-text">
+                    <p>Copyright &copy; 2023 | All rights are reserved.</p>
+                </div>
+
+                <div className="developer">
+                    <p>Made with ❤ By <span><a href='https://github.com/sachindsilva16'>Sachin Dsilva.</a></span></p>
+                </div>
+
+                <div className="top-button">
+                    <a href='#home'><i class='bx bx-chevron-up'></i></a>
+                </div>
+            </footer>
 
 
 
