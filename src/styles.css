@@ -544,6 +544,42 @@ a.btn:hover {
 }
 
 
+@media (min-width:649px) and (max-width:990px){
+
+    .about .about-image img {
+        display: none;
+    }
+
+    .about .about-content {
+        margin: 6rem 6rem;
+        padding-top: 4rem;
+    }
+
+    .about .about-content .heading,
+    .about .about-content h3
+    {
+
+        padding: 0 3rem;
+    }
+
+    .about .about-content a {
+        margin: 0 3rem;
+    }
+
+    
+
+   
+
+    .about .about-content p{
+        font-size: .1rem;
+        padding: 0 3rem;
+    }
+
+
+    
+}
+
+
 @media (max-width:648px) {
     #menu-icon {
         display: block;

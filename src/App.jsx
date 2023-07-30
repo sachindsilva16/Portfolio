@@ -283,6 +283,11 @@ const App = () => {
             </footer>
 
 
+            {/* SCROLL REAVEAL JS  */}
+
+            
+
+
 
 
         </div>
