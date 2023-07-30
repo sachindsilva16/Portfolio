@@ -297,9 +297,11 @@ a.btn:hover{
 /* PROJECT SECTION  */
 
 
-/* .projects {
+.projects {
+    background:var(--secondary-bg-color)
 
-} */
+
+}
 
 
 /* PROJECT SECTION HEADING */
@@ -414,10 +416,9 @@ a.btn:hover{
 
 /* CONTACT SECTION */
 
-.contact{
+/* .contact{
     background: var(--secondary-bg-color);
-    margin-top: 10rem;
-}
+} */
 
 /* CONTACT SECTION-HEADING */
 
@@ -447,7 +448,7 @@ a.btn:hover{
     padding: 1.4rem;
     font-size: 1.5rem;
     color: var(--text-color);
-    background:var(--bg-color);
+    background:var(--secondary-bg-color);
     border-radius: 1.3rem;
     margin: 1rem 0;
 }
@@ -470,12 +471,12 @@ a.btn:hover{
 }
 
 .footer {
-    background: var(bg-color);
+    background: var(--secondary-bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 2rem 9%;
+    padding: 1.5rem 9%;
 }
 
 /* FOOTER COPYRIGHT-TEXT */

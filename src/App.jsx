@@ -6,6 +6,46 @@ import Typed from "typed.js";
 const App = () => {
 
 
+
+
+
+    // NAVBAR TRIGGER 'active' class on current section 
+
+    var sections = document.querySelectorAll("section");
+
+    var navLinks = document.querySelectorAll("header nav a");
+
+
+    window.onscroll = () => {
+
+        sections.forEach(section => {
+            var top = window.scrollY;
+            var offset = section.offsetTop - 150;
+            var height = section.offsetHeight;
+
+            let id = section.getAttribute('id');
+
+            if (top >= offset && top < offset + height) {
+                navLinks.forEach(links => {
+                    links.classList.remove("active");
+                    document.querySelector("header nav a[href*=" + id + "]").classList.add("active");
+                });
+            };
+        });
+    }
+
+
+    // Sticky Navbar
+
+    
+
+
+
+
+
+    // -----------------------------------------
+
+
     const element = React.useRef(null);
 
     React.useEffect(() => {
@@ -102,10 +142,10 @@ const App = () => {
             {/* EXPERIENCE SECTION */}
 
             {/* PENDING.... */}
-            {/* 
+
             <section className="experience" id="experience">
 
-            </section> */}
+            </section>
 
             {/* PROJECT SECTION */}
 
