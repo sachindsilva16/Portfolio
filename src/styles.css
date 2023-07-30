@@ -66,7 +66,7 @@ body {
 
 /* LOGO NAME */
 
-.logo-name{
+.logo-name {
     font-weight: 600;
 }
 
@@ -140,7 +140,7 @@ section {
     transition: all 0.5s;
 }
 
-.home-image img:hover{
+.home-image img:hover {
     transform: scale(1.1);
 }
 
@@ -213,7 +213,7 @@ a.btn {
     transition: all 0.5s;
 }
 
-a.btn:hover{
+a.btn:hover {
     transform: scale(1.06);
 }
 
@@ -235,18 +235,18 @@ a.btn:hover{
 
 /* ABOUT id  */
 
-#about{
+#about {
     background: var(--secondary-bg-color);
 }
 
 .about-image img {
     width: 56vw;
     margin-left: -26rem;
-    transition:all 0.4s
-
+    transition: all 0.4s
 }
+
 .about-image img:hover {
-    
+
     transform: scale(1.02);
 }
 
@@ -261,27 +261,27 @@ a.btn:hover{
 
 .about-content {
     padding: 2rem 1.5rem 4rem 4rem;
-    background:var(--bg-color);
+    background: var(--bg-color);
     border-radius: 2rem;
     border: .1rem solid var(--main-color);
     transition: all .5s;
 }
 
-.about-content:hover{
+.about-content:hover {
     box-shadow: 0 0 1rem var(--main-color);
     transform: scale(1.05);
 }
 
 /* ABOUT : ABOUT-CONTENT h2 */
 
-.about-content h2{
+.about-content h2 {
     text-align: left;
     line-height: 1.5;
 }
 
 /* ABOUT CONTENT : h3 */
 
-.about-content h3{
+.about-content h3 {
     font-size: 2.8rem;
 }
 
@@ -298,15 +298,13 @@ a.btn:hover{
 
 
 .projects {
-    background:var(--secondary-bg-color)
-
-
+    background: var(--secondary-bg-color)
 }
 
 
 /* PROJECT SECTION HEADING */
 
-.projects h2{
+.projects h2 {
     margin-bottom: 7rem;
 }
 
@@ -315,9 +313,9 @@ a.btn:hover{
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap:7rem;
+    gap: 7rem;
 }
 
 
@@ -346,7 +344,7 @@ a.btn:hover{
     transform: scale(1.2);
 }
 
-.project-box:hover{
+.project-box:hover {
     box-shadow: none;
 }
 
@@ -356,7 +354,7 @@ a.btn:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background:linear-gradient(rgba(1,0,0,.1),var(--main-color));
+    background: linear-gradient(rgba(1, 0, 0, .1), var(--main-color));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -365,12 +363,12 @@ a.btn:hover{
     padding: 0 4rem;
 
     /* TO HIDE FOR IMAGE SCALING AND UPON BOX:HOVER translateY(100%) --> translateY(0) */
-    transition:.5s ease;
+    transition: .5s ease;
     transform: translateY(100%);
 }
 
 /* PROJECT-LAYER HEADING */
-.project-layer h4{
+.project-layer h4 {
     font-size: 3.2rem;
 }
 
@@ -388,14 +386,14 @@ a.btn:hover{
     justify-content: center;
     align-items: center;
     width: 5rem;
-    height:5rem;
+    height: 5rem;
     border-radius: 50%;
     background-color: var(--text-color);
     margin: 1.5rem 0;
     transition: .2s ease-in-out;
 }
 
-.project-layer a:hover{
+.project-layer a:hover {
     transform: scale(1.1);
 }
 
@@ -408,7 +406,7 @@ a.btn:hover{
 
 /* WHEN I HOVER OVER THE PROJECT-BOX THE PROJECT-LAYER WILL TRANSFORM FROM translateY(100%) to translate(0) */
 
-.project-box:hover .project-layer{
+.project-box:hover .project-layer {
     transform: translateY(0);
 }
 
@@ -422,7 +420,7 @@ a.btn:hover{
 
 /* CONTACT SECTION-HEADING */
 
-.contact h2{
+.contact h2 {
     margin-bottom: 2rem;
 }
 
@@ -448,25 +446,25 @@ a.btn:hover{
     padding: 1.4rem;
     font-size: 1.5rem;
     color: var(--text-color);
-    background:var(--secondary-bg-color);
+    background: var(--secondary-bg-color);
     border-radius: 1.3rem;
     margin: 1rem 0;
 }
 
-.contact form textarea{
-    resize:none;
+.contact form textarea {
+    resize: none;
 }
 
 
 
-.contact form .btn{
+.contact form .btn {
     font-weight: 500;
     transition: all 0.25s;
     cursor: pointer;
     padding: 1.7rem 5rem;
 }
 
-.contact form .btn:hover{
+.contact form .btn:hover {
     transform: scale(1.1);
 }
 
@@ -493,14 +491,14 @@ a.btn:hover{
     transition: all 0.5s;
 }
 
-.footer .developer span a:hover{
+.footer .developer span a:hover {
     text-decoration: underline;
 }
 
 
 /* TOP ARROW - REDIRECTING BUTTON */
 
-.footer .top-button  {
+.footer .top-button {
     background: var(--main-color);
     padding: 0.1rem 1.1rem;
     border-radius: 1rem;
@@ -523,7 +521,7 @@ a.btn:hover{
 
 /*--------- BREAKPOINTS----------- */
 
-@media (max-width:1200px){
+@media (max-width:1200px) {
 
     html {
         font-size: 55%;
@@ -531,7 +529,7 @@ a.btn:hover{
 }
 
 
-@media (max-width:991px){
+@media (max-width:991px) {
 
     .header {
         padding: 2rem 3%;
@@ -546,22 +544,22 @@ a.btn:hover{
 }
 
 
-@media (max-width:768px){
-    #menu-icon{
+@media (max-width:648px) {
+    #menu-icon {
         display: block;
     }
 
-   .header{
-    padding: 3rem 6rem;
-   }
+    .header {
+        padding: 3rem 6rem;
+    }
 
     .navbar {
         position: absolute;
         top: 100%;
-        left:0;
+        left: 0;
         width: 100%;
         padding: 1rem 3%;
-        background:var(--bg-color);
+        background: var(--bg-color);
         border-top: .1rem solid var(--secondary-bg-color);
         box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
         display: none;
@@ -569,45 +567,160 @@ a.btn:hover{
 
     .navbar.active {
         display: block;
+        /* border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem; */
+        border-radius: 2rem;
+        border-left: .1rem solid var(--main-color);
+        border-right: .1rem solid var(--main-color);
+        border-bottom: .1rem solid var(--main-color);
+        box-shadow: 0 0 1rem var(--main-color);
     }
 
     .navbar a {
         display: block;
         font-size: 2rem;
         margin: 3rem;
-        text-align:center;
+        text-align: center;
     }
 
     #menu-icon {
-        transition:all 0.25s;
+        transition: all 0.25s;
 
-        
+
     }
 
-    .navbar.active{
-        animation-name:rotate;
+    .navbar.active {
+        animation-name: rotate;
         animation-duration: 1s;
     }
-     .navbar.active a:hover{
-       transform: scale(1.1);
+
+    .navbar.active a:hover {
+        transform: scale(1.1);
     }
 
-    #menu-icon:hover{
+    #menu-icon:hover {
         transform: scale(1.1);
         color: var(--main-color);
     }
 
+
+    /* HOME SECTION */
+
+
+    .home {
+        flex-direction: column;
+    }
+
+    .home-content {
+        margin-top: 9rem;
+        text-align: center;
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-image img {
+        text-align: center;
+        width: 100%;
+        margin: 3rem auto;
+    }
+
+    .home-image img:hover {
+        transform: scale(1.2);
+    }
+
+    .about .about-image {
+        display: none;
+    }
+
+    .about-content {
+        margin: 6rem 3rem;
+    }
+
+    .about .about-content .heading {
+        font-size: 4rem;
+        text-align: center;
+
+    }
+
+    .about .about-content h3 {
+        text-align: center;
+    }
+
+    .about .about-content p {
+        text-align: center;
+        padding: 1rem 2rem;
+        font-size: .5rem;
+    }
+
+    .about .about-content .btn {
+        text-align: center;
+        display: block;
+        margin: 1.2rem 2.3rem 1.2rem 1.2rem;
+
+    }
+
+
+    /* PROJECT SECTION */
+
+    .project-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project-container .project-box {
+        margin: 0 3rem 2rem 3rem;
+    }
+
+    .project-container .project-box .project-layer {
+        transform: translateY(0);
+    }
+
+
+   
+
+    .contact form  {
+        margin: 2rem 3rem;
+    }
+
+    .contact form .btn {
+        margin-top: 3rem;
+    }
+
+
+
+    .footer {
+        flex-direction: column;
+    }
+    .footer .footer-text{
+        
+        line-height: 2.5;
+    }
+
+    .footer .developer{
+        margin-bottom: 4rem;
+    }
+
+
+
+
+
+
     @keyframes rotate {
-        0%{
+        0% {
             transform: translateY(1rem);
         }
 
-        25%{
+        25% {
             transform: translateY(2rem);
         }
-        
-       
-      
+
+
+
     }
 }
 
@@ -615,4 +728,48 @@ a.btn:hover{
 /* HAMBURGER MENU STYLINGS*/
 
 /* HAMBURGER MENU  */
+.bx-menu {
+    transition: all .25s;
 
+}
+
+.bx-x {
+    transition: all 0.25s;
+}
+
+.bx-x {
+    transform: rotate(-90deg);
+}
+
+@media (max-width:617px){
+    .project-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width:417px){
+
+    html{
+        font-size: 50%;
+    }
+
+
+    .footer {
+        text-align: center;
+        
+    }
+
+    .footer .footer-text {
+        line-height:1.5;
+        margin: 2rem 0;
+    }
+}
+
+
+@media (max-width:365px){
+    
+    .about .about-content p{
+        text-align: center;
+    }
+}
