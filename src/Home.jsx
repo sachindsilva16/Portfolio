@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState,useEffect } from "react";
+import "./styles.css"
 import profileImage, { projectImage1, projectImage2, projectImage3, projectImage4 } from "./images/images.js";
 import Typed from "typed.js";
 
