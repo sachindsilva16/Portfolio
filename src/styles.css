@@ -265,6 +265,25 @@ a.btn:hover {
     border-radius: 2rem;
     border: .1rem solid var(--main-color);
     transition: all .5s;
+    animation:float-image 2s ease-in-out infinite;
+    transition:all 0.5s;
+}
+
+@keyframes float-image {
+
+    0%{
+        transform:translateY(0);
+    }
+    
+    50%{
+        transform:translateY(-1.5rem);
+    }
+    
+    100%{
+        transform:translateY(0);
+    }
+    
+    
 }
 
 .about-content:hover {
@@ -329,6 +348,8 @@ a.btn:hover {
     display: flex;
     transition: all 0.5s;
     cursor: pointer;
+    animation:float-image 2s ease-in-out infinite;
+
 
 
 }
@@ -504,6 +525,24 @@ a.btn:hover {
     border-radius: 1rem;
     box-shadow: 0 0 2rem var(--main-color);
     transition: all 0.25s;
+    animation:float-button 1s ease-in-out infinite;
+
+}
+@keyframes float-button {
+
+    0%{
+        transform:translateY(0);
+    }
+    
+    50%{
+        transform:translateY(-0.9rem);
+    }
+    
+    100%{
+        transform:translateY(0);
+    }
+    
+    
 }
 
 .footer .top-button a {

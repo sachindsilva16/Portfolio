@@ -15,7 +15,7 @@ const AboutSection = () => {
             <div className="about-content">
                 <h2 className="heading">About <span>Me</span></h2>
                 <h3>Web Developer</h3>
-                <p>This line will be edited with a content on about me my experience and my future goals... This line will be edited with a content on about me my experience and my future goals...This line will be edited with a content on about me my experience and my future goals...This line will be edited with a content on about me my experience and my future goals...</p>
+                <p>Hi, I am a self-driven and motivated web developer based in Udupi, Karnataka, India. Currently I'm pursuing 4th year B.E in Information Science and Engineering.Agile and intellectually curious in problem-solving aspects.</p>
                 <a href='#' className="btn">Read More</a>
             </div>
         </section>
