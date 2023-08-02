@@ -81,16 +81,16 @@ const App = () => {
 
 
 
-    ScrollReveal({
-        reset: true,
-        distance: '70px',
-        duration: 2000,
-        delay: 200
-    });
+    // ScrollReveal({
+    //     reset: true,
+    //     distance: '70px',
+    //     duration: 2000,
+    //     delay: 200
+    // });
 
-    ScrollReveal().reveal('.home-content, .heading', { origin: 'top', duration: 1000 })
-    ScrollReveal().reveal('.home-image, .project-box,.contact form', { origin: 'bottom', duration: 1000 })
-    ScrollReveal().reveal('.home-content h1, .about,.contact form', { origin: 'left', duration:1000 });
+    // ScrollReveal().reveal('.home-content, .heading', { origin: 'top', duration: 1000 })
+    // ScrollReveal().reveal('.home-image, .project-box,.contact form', { origin: 'bottom', duration: 1000 })
+    // ScrollReveal().reveal('.home-content h1, .about,.contact form', { origin: 'left', duration:1000 });
 
 
 
