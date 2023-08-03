@@ -46,7 +46,7 @@ const HomeSection = () =>{
                         <a href='https://twitter.com/sachinrons123' target="_blank"><i className="bx bxl-twitter"></i> </a>
                     </div>
                     {/* RESUME LINK  */}
-                    <a href='#' className="btn">Download Resume</a>
+                    <a href='https://amppmann.github.io/Portfolio/SACHIN%20RONSON%20DSILVA-RESUME.pdf' target="_blank" className="float-btn btn">Download Resume</a>
 
 
                 </div>

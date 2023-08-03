@@ -173,6 +173,8 @@ span {
 /* SOCIAL MEDIA  :: ICONS*/
 
 
+
+
 .social-media a {
     display: inline-flex;
     justify-content: center;
@@ -186,6 +188,9 @@ span {
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: all .4s;
+    animation:float-button 1.5s ease-in-out infinite;
+
+    
 }
 
 .social-media a:hover {
@@ -193,6 +198,7 @@ span {
     color: var(--secondary-bg-color);
     box-shadow: 0 0 1.5 rem var(--main-color);
     transform: scale(1.1);
+
 }
 
 
@@ -204,6 +210,20 @@ span {
     background: var(--main-color);
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
+    animation:float-click-button 1s ease-in infinite;
+
+}
+
+@keyframes float-click-button{
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(0.5rem);
+    }
+    100%{
+        transform:translateY(0);
+    }
 }
 
 a.btn {
@@ -847,4 +867,10 @@ a.btn:hover {
     .about .about-content p{
         text-align: center;
     }
+}
+
+
+.float-btn{
+    animation:float-click-button 1s ease-in-out infinite;
+
 }

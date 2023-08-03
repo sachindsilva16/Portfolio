@@ -105,7 +105,7 @@ const App = () => {
 
                 {/* Navigation bar */}
                 <nav className={`navbar${ isNavBarOpen ? ' active' : '' }`} >
-                    <a href='#home' className="" onClick={() => {
+                    <a href='#home' className="active" onClick={() => {
                         setNavBarOpen(false);
                     }}>Home</a>
                     {/* <a href='#home'>Home</a> */}

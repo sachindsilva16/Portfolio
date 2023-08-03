@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/PortfolioSnippetImages
 /.pnp
 .pnp.js
 
@@ -21,6 +22,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-
-/PortfolioSnippetImages
