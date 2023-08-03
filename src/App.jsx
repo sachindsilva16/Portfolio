@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./styles.css"
 import profileImage, { projectImage1, projectImage2, projectImage3, projectImage4 } from "./images/images.js";
 import Typed from "typed.js";
@@ -49,7 +49,7 @@ const App = () => {
     // -----------------------------------------
 
 
-    
+
 
 
 
@@ -129,13 +129,13 @@ const App = () => {
 
             {/* HOME SECTION */}
 
-            <HomeSection/>
+            <HomeSection />
 
 
 
             {/* ABOUT SECTION */}
 
-            <AboutSection/>
+            <AboutSection />
 
             {/* EXPERIENCE SECTION */}
 
@@ -238,6 +238,12 @@ const App = () => {
 
                 <div className="developer">
                     <p>Made with ❤ By <span><a href='https://github.com/sachindsilva16'>Sachin Dsilva.</a></span></p>
+                </div>
+                <div className="social-media">
+                    <a href='https://github.com/sachindsilva16' target="_blank"><i className="bx bxl-github"></i></a>
+                    <a href='#' target="_blank"><i className='bx bxl-discord-alt' ></i></a>
+                    <a href='https://www.linkedin.com/in/sachin-dsilva-43169a1bb' target="_blank"><i className="bx bxl-linkedin-square"></i> </a>
+                    <a href='https://twitter.com/sachinrons123' target="_blank"><i className="bx bxl-twitter"></i> </a>
                 </div>
 
                 <div className="top-button">
