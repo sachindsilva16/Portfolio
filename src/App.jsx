@@ -158,7 +158,7 @@ const App = () => {
                         <img src={projectImage1} alt='project1.jpg' />
 
                         <div className="project-layer">
-                            <h4>Way Wizard - Chat Bot</h4>
+                            <h4>Way Wizard</h4>
                             <p>A Minimalistic & Interactive Chat Bot built on NLP</p>
                             <a href='https://github.com/sachindsilva16/Way-Wizard-Chat-Bot' target="_blank" className="float-btn"><i className='bx bx-link-external ' ></i></a>
                         </div>
