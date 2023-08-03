@@ -18,8 +18,8 @@ export default function ProjectSection() {
                         <img src={projectImage1} alt='project1.jpg' />
 
                         <div className="project-layer">
-                            <h4>Chat Bot</h4>
-                            <p>hsdhasdjashjdkhasdsdsdsdsdsdsdsd jskd ahdhashdkh askjhdk</p>
+                            <h4>Way Wizard-Chat Bot</h4>
+                            <p>A Minimalistic & Interactive Chat Bot built on NLP </p>
                             <a href='#'><i className='bx bx-link-external' ></i></a>
                         </div>
 

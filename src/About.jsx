@@ -6,6 +6,15 @@ import ScrollReveal from "scrollreveal";
 
 
 const AboutSection = () => {
+
+    const [isRead,setRead]=React.useState(false);
+
+    function handleReadClick(){
+        setRead(!isRead);
+    }
+
+
+
     return (
         <section className="about" id="about">
             <div className="about-image">
@@ -15,8 +24,10 @@ const AboutSection = () => {
             <div className="about-content">
                 <h2 className="heading">About <span>Me</span></h2>
                 <h3>Web Developer</h3>
-                <p>Hi, I am a self-driven and motivated web developer based in Udupi, Karnataka, India. Currently I'm pursuing 4th year B.E in Information Science and Engineering.Agile and intellectually curious in problem-solving aspects.</p>
-                <a href='#' className="btn">Read More</a>
+                <p style={{display : isRead ? "none" : "block"}}>Hi, I am a self-driven and motivated web developer based in Udupi, Karnataka, India. Currently I'm pursuing ...</p>
+                <p style={{display : isRead ? "block" : "none"}}>Hi, I am a self-driven and motivated web developer based in Udupi, Karnataka, India. Currently I'm pursuing 4th year B.E in Information Science and Engineering.Agile and intellectually curious in problem-solving aspects.</p>
+                
+                <a style={{cursor:"pointer"}} className="btn" id="read" onClick={handleReadClick}>Read More</a>
             </div>
         </section>
     )

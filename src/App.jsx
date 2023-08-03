@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css"
-import profileImage, { projectImage1, projectImage2, projectImage3, projectImage4 } from "./images/images.js";
+import profileImage, {loopStudios, projectImage1, projectImage2, projectImage3, projectImage4 } from "./images/images.js";
 import Typed from "typed.js";
 import ScrollReveal from "scrollreveal";
 import HomeSection from "./Home";
@@ -158,33 +158,33 @@ const App = () => {
                         <img src={projectImage1} alt='project1.jpg' />
 
                         <div className="project-layer">
-                            <h4>Chat Bot</h4>
-                            <p>hsdhasdjashjdkhasdsdsdsdsdsdsdsd jskd ahdhashdkh askjhdk</p>
-                            <a href='#'><i className='bx bx-link-external' ></i></a>
+                            <h4>Way Wizard - Chat Bot</h4>
+                            <p>A Minimalistic & Interactive Chat Bot built on NLP</p>
+                            <a href='https://github.com/sachindsilva16/Way-Wizard-Chat-Bot' target="_blank" className="float-btn"><i className='bx bx-link-external ' ></i></a>
                         </div>
 
                     </div>
 
-                    {/* BOX 2 */}
-                    <div className="project-box">
-                        <img src={projectImage2} alt='project1.jpg' />
-
-                        <div className="project-layer">
-                            <h4>Blog Oasis</h4>
-                            <p>hsdhasdjashjdkhajskd ahdhashdkh askjhdk</p>
-                            <a href='#'><i className='bx bx-link-external' ></i></a>
-                        </div>
-
-                    </div>
 
                     {/* BOX 3 */}
                     <div className="project-box">
                         <img src={projectImage3} alt='project1.jpg' />
 
                         <div className="project-layer">
-                            <h4>Curra Nova</h4>
-                            <p>hsdhasdjashjdkhajskd ahdhashdkh askjhdk</p>
-                            <a href='#'><i className='bx bx-link-external' ></i></a>
+                            <h4>To Do App</h4>
+                            <p>Sieze your day! Unleash the power of To-Do App</p>
+                            <a href='https://mytodoapp16.onrender.com/' className="float-btn"><i className='bx bx-link-external' ></i></a>
+                        </div>
+
+                    </div>
+                    {/* BOX 2 */}
+                    <div className="project-box">
+                        <img src={projectImage2} alt='project1.jpg' />
+
+                        <div className="project-layer">
+                            <h4>StorySparks</h4>
+                            <p>Bespoke post webpage featuring individual readability.</p>
+                            <a href='https://myblog16.onrender.com/' target="_blank" className="float-btn"><i className='bx bx-link-external' ></i></a>
                         </div>
 
                     </div>
@@ -195,8 +195,8 @@ const App = () => {
 
                         <div className="project-layer">
                             <h4>My Loop Studios</h4>
-                            <p>hsdhasdjashjdkhajskd ahdhashdkh askjhdk</p>
-                            <a href='#'><i className='bx bx-link-external' ></i></a>
+                            <p>A Minimalistic Front End Page of Loop Studios</p>
+                            <a href='https://ampmanloopstudios.netlify.app' target="_blank" className="float-btn"><i className='bx bx-link-external' ></i></a>
                         </div>
 
                     </div>
