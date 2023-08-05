@@ -60,7 +60,7 @@ const HomeSection = () =>{
 
                     <div className="social-media">
                         <a href='https://github.com/sachindsilva16' target="_blank"><i className="bx bxl-github"></i></a>
-                        <a href='#' target="_blank"><i className='bx bxl-discord-alt' ></i></a>
+                        <a href='https://discord.com/invite/sachindsilva#2655' target="_blank"><i className='bx bxl-discord-alt' ></i></a>
                         <a href='https://www.linkedin.com/in/sachin-dsilva-43169a1bb' target="_blank"><i className="bx bxl-linkedin-square"></i> </a>
                         <a href='https://twitter.com/sachinrons123' target="_blank"><i className="bx bxl-twitter"></i> </a>
                     </div>
