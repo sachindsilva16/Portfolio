@@ -130,6 +130,12 @@ section {
     line-height: 4;
 }
 
+/*  */
+
+.social-connect{
+    animation:float-button 1.5s ease-in-out infinite;
+}
+
 /* DEVELOPER IMAGE */
 
 .home-image img {

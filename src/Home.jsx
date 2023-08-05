@@ -7,11 +7,30 @@ import Typed from "typed.js";
 const HomeSection = () =>{
 
 
-    const element = React.useRef(null);
+    const firstElement = React.useRef(null);
 
     React.useEffect(() => {
-        const typed = new Typed(element.current, {
+        const typed = new Typed(firstElement.current, {
             strings: ['Web Developer.', 'Web Designer.'],
+            typeSpeed: 70,
+            smartBackspace: true,
+            backSpeed: 50,
+            loop: true,
+            loopCount: Infinity,
+            shuffle: false,
+        });
+
+        return () => {
+            // Destroy Typed instance during cleanup to stop animation
+            typed.destroy();
+        };
+    }, []);
+
+    const secondElement = React.useRef(null);
+
+    React.useEffect(() => {
+        const typed = new Typed(secondElement.current, {
+            strings: ['Stay Connected......!'],
             typeSpeed: 70,
             smartBackspace: true,
             backSpeed: 50,
@@ -33,8 +52,8 @@ const HomeSection = () =>{
                 <div className="home-content">
                     <h3>Hi, My Name is</h3>
                     <h1>Sachin Dsilva</h1>
-                    <h3>And I'm a <span ref={element}></span></h3>
-                    <p>Stay connected..</p>
+                    <h3>And I'm a <span ref={firstElement}></span></h3>
+                    <p class="social-connect"><span ref={secondElement}></span></p>
 
 
                     {/* SOCIA MEDIA ICONS */}
