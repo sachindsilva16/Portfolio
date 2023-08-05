@@ -35,7 +35,7 @@
 
 <div id="header" align="center" style="display:flex;justify-content:center;align-items:center;margin-bottom:50px;margin-top:50px;">
 
-<img src="https://github.com/amppmann/Portfolio/blob/main/Portfolio%20Home%20Page.png" style="border-radius:2rem;"/>
+<a href="https://sachindsilvaportfolio.vercel.app"><img src="https://github.com/amppmann/Portfolio/blob/main/Portfolio%20Home%20Page.png" style="border-radius:2rem;"/></a>
   
  
 
