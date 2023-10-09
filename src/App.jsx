@@ -121,7 +121,7 @@ const App = () => {
 
                         <div className="project-layer">
                             <h4>Way Wizard</h4>
-                            <p>A Minimalistic & Interactive Chat Bot built on NLP</p>
+                            <p>A Minimalistic & Interactive Chat Bot built on React & NLP</p>
                             <a href='https://github.com/sachindsilva16/Way-Wizard-Chat-Bot' target="_blank" className="float-btn"><i className='bx bx-link-external ' ></i></a>
                         </div>
 
