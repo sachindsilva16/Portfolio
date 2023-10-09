@@ -11,7 +11,7 @@ const HomeSection = () =>{
 
     React.useEffect(() => {
         const typed = new Typed(firstElement.current, {
-            strings: ['Web Developer.', 'Web Designer.'],
+            strings: ['Developer.', 'Web Designer.'],
             typeSpeed: 70,
             smartBackspace: true,
             backSpeed: 50,
