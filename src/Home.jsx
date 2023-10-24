@@ -11,7 +11,7 @@ const HomeSection = () =>{
 
     React.useEffect(() => {
         const typed = new Typed(firstElement.current, {
-            strings: ['Developer.', 'Web Designer.'],
+            strings: ['Developer.', 'Designer.'],
             typeSpeed: 70,
             smartBackspace: true,
             backSpeed: 50,
@@ -53,7 +53,7 @@ const HomeSection = () =>{
                     <h3>Hi, My Name is</h3>
                     <h1>Sachin Dsilva</h1>
                     <h3>And I'm a <span ref={firstElement}></span></h3>
-                    <p class="social-connect"><span ref={secondElement}></span></p>
+                    {/* <p class="social-connect"><span ref={secondElement}></span></p> */}
 
 
                     {/* SOCIA MEDIA ICONS */}
