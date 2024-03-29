@@ -1,36 +1,4 @@
-<!--
-<kbd>
-<img src="https://holopin.me/sachindsilva16" height="300"  align="center" style="margin-bottom:20px;display:flex;align-items:center;justify-content:center;width:800px;height:auto;"/>
-</kbd>
 
--->
-
-<p align="center" dir="auto">
-<!--   GMAIL -->
-     <a href="mailto:sachinronson16@gmail.com">
-    <img src="https://www.svgrepo.com/show/452213/gmail.svg" height="40px" alt="mail" data-canonical-src="https://www.svgrepo.com/show/223047/gmail.svg" style="max-width: 100%;">
-    </a>&nbsp;&nbsp;
-<!--   INSTAGRAM  -->
-  
-<a href="https://www.instagram.com/sachin.dsilva_/" rel="nofollow">
-    <img src="https://www.svgrepo.com/show/452229/instagram-1.svg" height="40px" alt="Instagram" data-canonical-src="https://www.svgrepo.com/show/452229/instagram-1.svg" style="max-width: 100%;">
-    </a>&nbsp;&nbsp;
-<!--     TWITTER  -->
-  <a href="https://twitter.com/sachinrons123" rel="nofollow">
-    <img src="https://www.svgrepo.com/show/452123/twitter.svg" height="40px" data-canonical-src="https://www.svgrepo.com/show/475689/twitter-color.svg" style="max-width: 100%;">
-    </a>&nbsp;&nbsp;
-    <!-- TELEGRAM -->
-  <a href="https://discord.com/invite/sachindsilva#2655" rel="nofollow">
-     <img src="https://www.svgrepo.com/show/452115/telegram.svg" height="40px" alt="Discord" data-canonical-src="https://www.svgrepo.com/show/452115/telegram.svg" style="max-width: 100%;">&nbsp;&nbsp;
-<!--     LINKEDIN  -->
-
- <a href="https://www.linkedin.com/in/sachin-dsilva-43169a1bb" rel="nofollow">
-    <img src="https://www.svgrepo.com/show/448234/linkedin.svg" height="40px" data-canonical-src="https://www.svgrepo.com/show/448234/linkedin.svg" style="max-width: 100%;">
-    </a>&nbsp;&nbsp;
-<!-- DISCORD  -->
-  <a href="https://discord.com/invite/sachindsilva#2655" rel="nofollow">
-     <img src="https://www.svgrepo.com/show/353655/discord-icon.svg" height="40px" alt="Discord" data-canonical-src="https://www.svgrepo.com/show/353655/discord-icon.svg" style="max-width: 100%;">&nbsp;&nbsp;
-</p>
 
 
 <div id="header" align="center" style="display:flex;justify-content:center;align-items:center;margin-bottom:50px;margin-top:50px;">
